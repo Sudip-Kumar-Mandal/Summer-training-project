@@ -1,0 +1,40 @@
+.navbar-brand {
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.card {
+  border: none !important;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+#CartCardMain {
+  background-color: white;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#CartCardRemove {
+  border: none;
+  background-color: white;
+  font-weight: 500;
+  font-size: large;
+}
+
+#CartCardRemove:hover {
+  color: blue;
+}
+
+#CartPriceMain {
+  background-color: white;
+  padding: 8px;
+  margin: 16px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
